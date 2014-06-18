@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -24,12 +26,12 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: white;
   color: #3e3b39;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Permanent Marker", "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; }
@@ -100,7 +102,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em; }
 
 label {
@@ -124,7 +126,7 @@ select[multiple=multiple] {
   border-radius: 0.1875em;
   border: 1px solid #dddddd;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em 0.5em;
@@ -208,37 +210,45 @@ input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap; }
 
-header, main, footer {
+body {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
-  header:after, main:after, footer:after {
+  margin-right: auto;
+  padding: 1em; }
+  body:after {
     content: "";
     display: table;
     clear: both; }
 
-header img, header aside {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
-  header img:last-child, header aside:last-child {
-    margin-right: 0; }
-header aside:first-child {
-  text-align: right; }
-header aside dt {
-  font-size: 2em; }
-header aside .name {
-  white-space: nowrap; }
-
-main article {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-left: 25.58941%; }
-  main article:last-child {
-    margin-right: 0; }
+header {
+  display: block; }
+  header:after {
+    content: "";
+    display: table;
+    clear: both; }
+  header img {
+    max-height: 18.75em; }
+  header time {
+    color: #b11a29; }
+  header aside:first-child {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    header aside:first-child:last-child {
+      margin-right: 0; }
+  header aside:last-child {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    display: table;
+    height: 100%; }
+    header aside:last-child:last-child {
+      margin-right: 0; }
+    header aside:last-child h1, header aside:last-child h2, header aside:last-child h3 {
+      display: table-row;
+      vertical-align: middle; }
 
 footer {
   background: #491c21;
@@ -247,42 +257,22 @@ footer {
   footer .footer-logo {
     margin-right: 1em;
     margin-bottom: 1em; }
-    @media screen and (min-width: 53.75em) {
-      footer .footer-logo {
-        float: left;
-        margin-bottom: 0; } }
   footer .footer-logo img {
     height: 1.6em; }
   footer ul {
     margin-bottom: 1em; }
-    @media screen and (min-width: 53.75em) {
-      footer ul {
-        float: left;
-        margin-left: 1em;
-        margin-bottom: 0; } }
   footer ul li {
     padding-right: 1em;
     font-weight: 800; }
-    @media screen and (min-width: 53.75em) {
-      footer ul li {
-        display: inline;
-        text-align: left; } }
   footer ul li a {
     color: rgba(255, 255, 255, 0.4); }
     footer ul li a:hover {
       color: white; }
-  @media screen and (min-width: 53.75em) {
-    footer .footer-secondary-links {
-      float: right; } }
   footer .footer-secondary-links li {
     font-size: 0.8em;
     font-weight: 400; }
   footer .footer-secondary-links ul.footer-social {
     margin-top: 1em; }
-    @media screen and (min-width: 53.75em) {
-      footer .footer-secondary-links ul.footer-social {
-        float: right;
-        margin-top: 0; } }
     footer .footer-secondary-links ul.footer-social li {
       float: left;
       font-size: 1em;
