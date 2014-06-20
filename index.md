@@ -8,7 +8,9 @@ layout: default
     <input type="text" name="email" id="email" placeholder="Enter your email address">
     <input type="submit" class="align-center" value="Email me">
   </form>
+</section>
 
+<section class="center white">
   <h2>Want to give a talk?</h2>
   <p>
     We're inviting keynote speakers and running a CFP for the rest of our

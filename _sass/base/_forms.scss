@@ -1,6 +1,5 @@
 form {
-  width: 80%;
-  margin: 2em auto 4em;
+  margin: 2em auto;
 }
 
 fieldset {
@@ -40,9 +39,8 @@ select[multiple=multiple] {
   border-radius: $base-border-radius;
   color: #fff;
   font-size: $base-font-size * 1.2;
-  margin-bottom: $base-line-height / .7;
+  margin-bottom: $base-line-height * 1.2;
   padding: ($base-line-height / 3) ($base-line-height / 3);
-  text-align: center;
   width: 100%;
 
   &:hover {
@@ -62,6 +60,7 @@ select[multiple=multiple] {
 }
 
 textarea {
+  display: block;
   resize: vertical;
 }
 
@@ -81,7 +80,7 @@ input[type="file"] {
 }
 
 input[type="submit"] {
-  display: block
+  display: block;
 }
 
 select {
