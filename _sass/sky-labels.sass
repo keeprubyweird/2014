@@ -3,20 +3,22 @@
   position: relative
 
   label
-    color: $base-font-color
+    @include transition(all 0.15s)
+    color: $base-border-color
     left: 4px
     padding: 4px 6px
     position: absolute
     top: 4px
-    @include transition(all 0.15s)
 
 .sky-label-focused label,
 .sky-label-has-text label
-  background-color: $base-button-color
-  color: #FFF
-  left: 0px
+  background-color: rgba(#fff, .2)
+  border-radius: 3px 3px 0 0
+  color: rgba(#fff, .4)
+  font-weight: 500
+  left: 5px
   opacity: 1
-  top: -35px
+  top: -32px
 
 .sky-label-has-text label
   opacity: 0

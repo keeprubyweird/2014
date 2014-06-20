@@ -8,25 +8,50 @@
 @import "neat/neat"
 @import "base/base"
 @import "sky-labels"
-@import url(http://fonts.googleapis.com/css?family=Open+Sans)
-@import url(http://fonts.googleapis.com/css?family=Permanent+Marker)
+@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie)
+@import url(http://fonts.googleapis.com/css?family=Sanchez)
 
 body
+  margin: 0
+
+section
   @include outer-container
-  padding: 1em
+
+.center
+  text-align: center
+
+.align-center
+  margin: 0 auto
+
+.white
+  color: darken($light-gray, 25)
+
+a.button
+  background: $base-accent-color
+  border-radius: $base-border-radius
+  color: #fff
+  font-weight: 700
+  padding: .6em 1em
 
 header
   @include row
+  background-image: url("../images/skulls.png")
+  margin-bottom: 4em
+  padding: 4em 0
   text-align: center
+  width: 100%
 
   img
-    max-height: em(400)
+    max-height: em(380)
 
   time
     color: $base-accent-color
 
 footer
+  margin-top: 4em
+  padding-top: 4em
   width: 100%
+
   .footer-logo
     margin-right: 1em
     margin-bottom: 1em
@@ -37,6 +62,8 @@ footer
   ul li
     padding-right: 1em
     font-weight: 800
+    display: inline-block
+
   ul li a
     &:hover
       color: transparentize($base-accent-color, 0)

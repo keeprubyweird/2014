@@ -1,3 +1,8 @@
+form {
+  width: 80%;
+  margin: 2em auto 4em;
+}
+
 fieldset {
   background: lighten($base-border-color, 10);
   border: 1px solid $base-border-color;
@@ -14,7 +19,6 @@ select {
 }
 
 label {
-  font-weight: bold;
   margin-bottom: $base-line-height / 4;
 
   &.required:after {
@@ -31,24 +35,29 @@ textarea,
 select[multiple=multiple] {
   @include box-sizing(border-box);
   @include transition(border-color);
-  background-color: white;
-  border-radius: $form-border-radius;
-  border: 1px solid $form-border-color;
-  box-shadow: $form-box-shadow;
-  font-family: $form-font-family;
-  font-size: $form-font-size;
-  margin-bottom: $base-line-height / 2;
+  background-color: rgba(#fff, .1);
+  border: none;
+  border-radius: $base-border-radius;
+  color: #fff;
+  font-size: $base-font-size * 1.2;
+  margin-bottom: $base-line-height / .7;
   padding: ($base-line-height / 3) ($base-line-height / 3);
+  text-align: center;
   width: 100%;
 
   &:hover {
+    background: rgba(#fff, .15);
     border-color: $form-border-color-hover;
   }
 
   &:focus {
+    background: rgba(#fff, .2);
     border-color: $form-border-color-focus;
-    box-shadow: $form-box-shadow-focus;
     outline: none;
+  }
+
+  @include placeholder {
+    color: rgba(#fff, .3);
   }
 }
 
@@ -69,6 +78,10 @@ input[type="file"] {
   margin-bottom: $base-line-height / 2;
   padding-bottom: ($base-line-height / 3);
   width: 100%;
+}
+
+input[type="submit"] {
+  display: block
 }
 
 select {
