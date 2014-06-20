@@ -8,6 +8,7 @@
 @import "neat/neat"
 @import "base/base"
 @import "sky-labels"
+@import "animations"
 @import url(http://fonts.googleapis.com/css?family=Reenie+Beanie)
 @import url(http://fonts.googleapis.com/css?family=Sanchez)
 
@@ -49,7 +50,7 @@ header
   text-align: center
   width: 100%
 
-  img
+  svg
     max-height: em(380)
 
   time
@@ -77,3 +78,10 @@ footer
 
   section
     border-bottom: none
+
+.eye-left
+  @include animation(crazyeyes 1s ease infinite)
+
+.eye-right
+  @include animation(crazyeyes 1s ease infinite)
+  @include animation-delay(.15s)
