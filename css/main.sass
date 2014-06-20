@@ -17,34 +17,15 @@ body
 
 header
   @include row
+  text-align: center
 
   img
-    max-height: em(300)
+    max-height: em(400)
 
   time
     color: $base-accent-color
 
-  aside
-    &:first-child
-      @include span-columns(4)
-
-    &:last-child
-      @include span-columns(8)
-      @include reset-display
-      display: table
-      height: 100%
-
-      h1, h2, h3
-        display: table-row
-        vertical-align: middle
-
 footer
-  $footer-background: desaturate(darken($base-accent-color, 20), 30)
-  $footer-color: white
-  $footer-link-color: transparentize($footer-color, 0.6)
-  $footer-disclaimer-color: transparentize($footer-color, 0.6)
-  background: $footer-background
-  padding: $base-line-height
   width: 100%
   .footer-logo
     margin-right: 1em
@@ -57,9 +38,8 @@ footer
     padding-right: 1em
     font-weight: 800
   ul li a
-    color: $footer-link-color
     &:hover
-      color: transparentize($footer-color, 0)
+      color: transparentize($base-accent-color, 0)
   .footer-secondary-links
 
     li
