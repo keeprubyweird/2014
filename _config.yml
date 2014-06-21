@@ -3,7 +3,7 @@ title: Keep Ruby Weird
 email: organizers@keeprubyweird.com
 description: "Austin's newest Ruby conference: One day and filled with weird."
 url: "http://keeprubyweird.com"
-exclude: CNAME
+exclude: ['CNAME']
 
 # Build settings
 markdown: redcarpet
