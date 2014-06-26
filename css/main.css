@@ -37,6 +37,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; }
+  h1 .amount, h2 .amount, h3 .amount, h4 .amount, h5 .amount, h6 .amount {
+    color: #b11a29; }
 
 h1 {
   font-size: 3em; }
