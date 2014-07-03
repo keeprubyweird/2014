@@ -31,7 +31,7 @@ label {
 
 textarea,
 #{$all-text-inputs},
-select[multiple=multiple] {
+select {
   @include box-sizing(border-box);
   @include transition(border-color);
   background-color: rgba(#fff, .1);
@@ -81,10 +81,4 @@ input[type="file"] {
 
 input[type="submit"] {
   display: block;
-}
-
-select {
-  width: auto;
-  max-width: 100%;
-  margin-bottom: $base-line-height;
 }
