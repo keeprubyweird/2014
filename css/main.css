@@ -393,8 +393,8 @@ footer section {
   -moz-animation-delay: 0.15s;
   animation-delay: 0.15s; }
 
-#got-your-email-now-we-will-sell-it {
+#got-your-email-now-we-will-sell-it .confirmation {
   display: none;
   color: #b11a29; }
-  #got-your-email-now-we-will-sell-it:target {
-    display: inherit; }
+#got-your-email-now-we-will-sell-it:target .confirmation {
+  display: inherit; }

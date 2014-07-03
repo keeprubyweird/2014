@@ -87,8 +87,9 @@ footer
   @include animation-delay(.15s)
 
 #got-your-email-now-we-will-sell-it
-  display: none
-  color: $base-accent-color
+  .confirmation
+    display: none
+    color: $base-accent-color
 
-  &:target
+  &:target .confirmation
     display: inherit
