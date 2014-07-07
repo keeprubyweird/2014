@@ -197,13 +197,11 @@ table {
   width: 100%; }
 
 th {
-  border-bottom: 1px solid #b7b7b7;
   font-weight: bold;
   padding: 0.75em 0;
   text-align: left; }
 
 td {
-  border-bottom: 1px solid #dddddd;
   padding: 0.75em 0; }
 
 tr, td, th {
@@ -393,3 +391,18 @@ footer section {
   color: #b11a29; }
 #got-your-email-now-we-will-sell-it:target .confirmation {
   display: inherit; }
+
+figure.keynote-speaker {
+  display: inline-block; }
+
+.ticketbud-widget h3 {
+  display: none; }
+.ticketbud-widget a img {
+  position: relative;
+  top: 4px; }
+.ticketbud-widget select {
+  margin-bottom: 0.5em; }
+.ticketbud-widget .description {
+  display: none; }
+.ticketbud-widget br {
+  display: none; }
