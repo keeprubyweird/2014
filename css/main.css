@@ -393,7 +393,14 @@ footer section {
   display: inherit; }
 
 figure.keynote-speaker {
-  display: inline-block; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%; }
+  figure.keynote-speaker:last-child {
+    margin-right: 0; }
+  figure.keynote-speaker img {
+    height: 160px; }
 
 .ticketbud-widget h3 {
   display: none; }
@@ -406,3 +413,6 @@ figure.keynote-speaker {
   display: none; }
 .ticketbud-widget br {
   display: none; }
+.ticketbud-widget input[type="submit"] {
+  margin-left: auto;
+  margin-right: auto; }

@@ -95,7 +95,10 @@ footer
     display: inherit
 
 figure.keynote-speaker
-  display: inline-block
+  @include span-columns(5)
+
+  img
+    height: 160px
 
 .ticketbud-widget
   h3
@@ -112,3 +115,7 @@ figure.keynote-speaker
 
   br
     display: none
+
+  input[type="submit"]
+    margin-left: auto
+    margin-right: auto
