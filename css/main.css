@@ -318,6 +318,8 @@ section {
     content: "";
     display: table;
     clear: both; }
+  section.sponsors {
+    border-bottom: none; }
 
 .center {
   text-align: center; }
