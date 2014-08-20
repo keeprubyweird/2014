@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section class="speakers white">
+  <ul>
+    {% for speaker in site.data.speakers %}
+    <li id="{{ speaker.slug }}">
+      {% for email in speaker.emails %}
+      <img src="http://www.gravatar.com/avatar/{{ email }}?s=200"></img>
+      {% endfor %}
+      <h2>{{ speaker.talk-title }}</h2>
+      <address class="byline">{{ speaker.name }}</address>
+      <section class="talk-description">
+        {{ speaker.talk-description | markdownify }}
+      </section>
+      <hr class="talk-speaker-separator"/>
+      <section class="speaker-bio">
+        {{ speaker.speaker-bio | markdownify }}
+      </section>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
