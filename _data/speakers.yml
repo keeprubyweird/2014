@@ -1,6 +1,7 @@
 ---
 - name: Paul Battley
   slug: paul-battley
+  twitters: ["threedaymonk"]
   speaker-bio: I'm a professional Rubyist and an amateur linguist. I like all kinds
     of languages, both human and computer. I don't drive much.
   talk-title: What's that supposed to mean?
@@ -27,6 +28,7 @@
     hamburger menus, and inspire people to do better.
 - name: Coraline Ehmke
   slug: coraline-ehmke
+  twitters: ["bantik"]
   speaker-bio: |
     Coraline Ada Ehmke is a speaker, author, teacher, open source advocate and
     technologist with 20 years of experience in developing apps for the web. As
@@ -53,6 +55,7 @@
     exploring the intersection of gender and technology.
 - name: Joanne Cheng
   slug: joanne-cheng
+  twitters: ["joannecheng"]
   speaker-bio: |
     Joanne is an experienced developer who thinks a lot about data visualization
     and best practices. When she's not happily writing code at thoughtbot, she
@@ -72,6 +75,7 @@
     collaboration.
 - name: Jonan Scheffler
   slug: jonan-scheffler
+  twitters: ["1337807"]
   speaker-bio: |
     Free range computer sciencer from Portland Oregon, crafting artisanal
     software solutions since the dawn of time. If you have a problem, no one
@@ -87,6 +91,7 @@
     were prepared for the fight.
 - name: Jeremy Flores and Carol Nichols
   slug: jeremy-flores-and-carol-nichols
+  twitters: ["_jnf", "carols10cents"]
   speaker-bio: |
     Jeremy’s been programming about half as long as he’s been alive. He gets all
     weird if he thinks about it too much. Jeremy lives in Seattle and helps kids
@@ -117,6 +122,7 @@
     row.
 - name: Nickolas Means
   slug: nickolas-means
+  twitters: ["nmeans"]
   speaker-bio: |
     Nickolas Means is a software engineer at [WellMatch
     Health](http://www.wellmatchhealth.com/) and spends his days remote pairing

@@ -8,7 +8,10 @@ layout: default
     <li id="{{ speaker.slug }}">
       <img src="/images/{{ speaker.slug }}.jpg"></img>
       <h2>{{ speaker.talk-title }}</h2>
-      <address class="byline">{{ speaker.name }}</address>
+      <address class="byline">
+        {{ speaker.name }}
+        ({% for twitter in speaker.twitters %}<a href="https://twitter.com/{{ twitter}}">@{{ twitter }}</a>{% if speaker.twitters.last != twitter %}, {% endif %}{% endfor %})
+      </address>
       <section class="talk-description">
         {{ speaker.talk-description | markdownify }}
       </section>
