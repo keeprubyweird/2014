@@ -6,9 +6,7 @@ layout: default
   <ul>
     {% for speaker in site.data.speakers %}
     <li id="{{ speaker.slug }}">
-      {% for email in speaker.emails %}
-      <img src="http://www.gravatar.com/avatar/{{ email }}?s=200"></img>
-      {% endfor %}
+      <img src="/images/{{ speaker.slug }}.jpg"></img>
       <h2>{{ speaker.talk-title }}</h2>
       <address class="byline">{{ speaker.name }}</address>
       <section class="talk-description">

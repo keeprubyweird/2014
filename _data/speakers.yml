@@ -1,7 +1,6 @@
 ---
 - name: Paul Battley
   slug: paul-battley
-  emails: 2abf5beb51d5d66211d525a72c5cb39d
   speaker-bio: I'm a professional Rubyist and an amateur linguist. I like all kinds
     of languages, both human and computer. I don't drive much.
   talk-title: What's that supposed to mean?
@@ -27,7 +26,6 @@
     hope that it will go some way towards explaining why there are so many
     hamburger menus, and inspire people to do better.
 - name: Coraline Ehmke
-  emails: 4900754dfff6786e747438a703e0d791
   slug: coraline-ehmke
   speaker-bio: |
     Coraline Ada Ehmke is a speaker, author, teacher, open source advocate and
@@ -54,7 +52,6 @@
     conversations and create opportunities for shared learning and growth by
     exploring the intersection of gender and technology.
 - name: Joanne Cheng
-  emails: 0b0184b815c54a6f03f6e5ada4d4b69a
   slug: joanne-cheng
   speaker-bio: |
     Joanne is an experienced developer who thinks a lot about data visualization
@@ -74,7 +71,6 @@
     computers today, and why we should embrace the spirit of experimentation and
     collaboration.
 - name: Jonan Scheffler
-  emails: 7353db17cf19f920fbd24479c8157781
   slug: jonan-scheffler
   speaker-bio: |
     Free range computer sciencer from Portland Oregon, crafting artisanal
@@ -90,7 +86,6 @@
     someday crawl out from under your bed, and when they do you'll be glad you
     were prepared for the fight.
 - name: Jeremy Flores and Carol Nichols
-  emails: ["a9d221d7b998900516012ce9e734ffb6", "2ac88413948aad12e279e0d9609e7f74"]
   slug: jeremy-flores-and-carol-nichols
   speaker-bio: |
     Jeremy’s been programming about half as long as he’s been alive. He gets all
@@ -121,7 +116,6 @@
     our shared conference experiences.  Rain ponchos recommended for the front
     row.
 - name: Nickolas Means
-  emails: 914510c7c579ba416b01807d59c340d4
   slug: nickolas-means
   speaker-bio: |
     Nickolas Means is a software engineer at [WellMatch
