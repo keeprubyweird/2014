@@ -1,4 +1,28 @@
 ---
+- name: Aaron Patterson
+  slug: aaron-patterson
+  image: "/images/tenderlove.png"
+  twitters: ["tenderlove"]
+  talk-title: Opening Keynote
+  speaker-bio: |
+    The only member of both the Ruby and Rails core teams, Aaron Patterson is
+    nothing short of a prolific open source contributor.  By day he is a mild
+    mannered programmer for AT&amp;T.  You can find him on <a
+    href="https://twitter.com/tenderlove">twitter</a>, or read his <a
+    href="http://tenderlovemaking.com">blog</a>.
+- name: Russ Olsen
+  slug: russ-olsen
+  image: "/images/russolsen.jpg"
+  twitters: ["russolsen"]
+  talk-title: Closing Keynote
+  speaker-bio: |
+    Russ is the author of two highly regarded books: Design Patterns in Ruby and
+    Eloquent Ruby. Russ also has been secretly enamored with parentheses since
+    a very early age and has lately turned to Clojure. He blogs at
+    <a href="http://russolsen.com/">http://russolsen.com</a>.
+
+    Russ is Vice President of Consulting Services at Cognitect.
+
 - name: Paul Battley
   slug: paul-battley
   twitters: ["threedaymonk"]

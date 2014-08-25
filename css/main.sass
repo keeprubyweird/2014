@@ -15,16 +15,26 @@
 body
   margin: 0
 
-section
+main
   @include outer-container
+
+section
   border-bottom: 1px solid lighten($dark-gray, 10)
   padding: 2em 0
+
+  @include span-columns(12)
+
+  @include hidpi
+    margin-right: 0
+    margin-left: 0
 
   &.sponsors
     border-bottom: none
 
     &.organizers img.sponsor
       max-height: 60px
+
+
 
 .center
   text-align: center
@@ -63,6 +73,8 @@ header
     color: $base-accent-color
 
 footer
+  @include outer-container
+
   h4
     margin-bottom: .5em
   ul
@@ -103,6 +115,10 @@ footer
 figure.keynote-speaker
   @include span-columns(5)
 
+  @include hidpi
+    @include span-columns(12)
+    margin-left: 0
+
   img
     height: 160px
 
@@ -125,8 +141,10 @@ figure.keynote-speaker
   input[type="submit"]
     margin-left: auto
     margin-right: auto
+
 .speakers
   border-bottom: none
+  padding: 0 1em
 
   .talk-speaker-separator
     margin: 0 auto
@@ -137,8 +155,16 @@ figure.keynote-speaker
     border-bottom: none
 
   li
+    @include clearfix
     border-bottom: 2px solid lighten($dark-gray, 10)
     padding-top: 1em
+    .keynote &
+      border-bottom: none
   img
     float: left
     padding: 1em 1.5em 0 0
+    max-width: 224px
+
+    @include hidpi
+      width: 100%
+      padding: 1em
