@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section class="speakers white">
+  <ul>
+    {% for speaker in site.data.speakers %}
+    <li id="{{ speaker.slug }}">
+      {% if speaker.image %}
+      <img src="{{ speaker.image }}"></img>
+      {% else %}
+      <img src="/images/{{ speaker.slug }}.jpg"></img>
+      {% endif %}
+      <h2>{{ speaker.talk-title }}</h2>
+      <address class="byline">
+        {{ speaker.name }}
+        ({% for twitter in speaker.twitters %}<a href="https://twitter.com/{{ twitter}}">@{{ twitter }}</a>{% if speaker.twitters.last != twitter %}, {% endif %}{% endfor %})
+      </address>
+      {% if speaker.talk-description %}
+      <section class="talk-description">
+        {{ speaker.talk-description | markdownify }}
+      </section>
+      <hr class="talk-speaker-separator"/>
+      {% endif %}
+      <section class="speaker-bio">
+        {{ speaker.speaker-bio | markdownify }}
+      </section>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
