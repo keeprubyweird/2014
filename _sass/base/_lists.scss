@@ -16,7 +16,7 @@ ul, ol {
   }
 }
 
-ul.bulleted {
+.bulleted ul, .bulleted ol, .bulleted {
   list-style-type: disc;
   margin-left: 20px;
 }

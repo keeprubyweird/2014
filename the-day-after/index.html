@@ -1,0 +1,10 @@
+---
+title: Post-Conference Suggestions
+layout: default
+---
+
+<section class="white bulleted">
+  {% capture day_after_content %} {% include day-after.md %} {% endcapture %}
+
+  {{ day_after_content | unindent | markdownify }}
+</section>
