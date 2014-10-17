@@ -1,0 +1,76 @@
+---
+- time: "09:00"
+  title: Registration & Breakfast
+  caption: Good Morning Austin and nomnomnom
+
+- time: "10:00"
+  title: Welcoming Remarks
+  caption: Keep Ruby Weird Organizers
+
+- time: "10:10"
+  title: Opening Keynote
+  talk-slug: opening-keynote
+  caption: Aaron Patterson
+
+- time: "11:00"
+  title: Ice Breaker
+  caption: Richard Schneeman
+
+- time: "11:30"
+  title: He Doesn't Work Here Anymore
+  talk-slug: he-doesnt-work-here-anymore
+  caption: Coraline Ehmke
+
+- time: "12:00"
+  title: What's That Supposed to Mean
+  talk-slug: whats-that-supposed-to-mean
+  caption: Paul Battley
+
+- time: "12:30"
+  title: Lunch
+  caption: moar noms
+
+- time: "14:00"
+  title: Ten Years of Ruby Conferences A Dramatic Revue
+  talk-slug: ten-years-of-ruby-conferences-a-dramatic-revue'
+  caption: Jeremy Flores and Carol Nichols
+
+- time: "14:30"
+  title: Ruby Monsters Go Bump in the Night
+  talk-slug: ruby-monsters-go-bump-in-the-night
+  caption: Jonan Schefler
+
+- time: "15:00"
+  title: Ruby Pun Off
+  caption: Matt Pollock, Master Pun Meister
+
+- time: "15:30"
+  title: How to Code Like a Writer
+  talk-slug: how-to-code-like-a-writer
+  caption: Nickolas Means
+
+- time: "16:00"
+  title: Computer Art at Bell Labs
+  talk-slug: computer-art-at-bell-labs
+  caption: Joanne Cheng
+
+- time: "16:30"
+  title: Friday Hug
+  caption: <3 <3 <3
+
+- time: "17:00"
+  title: Closing Keynote
+  talk-slug: closing-keynote
+  caption: Russ Olsen
+
+- time: "17:55"
+  title: Closing Remarks
+  caption: Keep Ruby Weird Organizers
+
+- time: "18:00"
+  title: Dinner / Downtime
+  caption: noms on your own
+
+- time: "19:00"
+  title: After Party
+  caption: Captial Factory, 701 Brazos St., 16th Floor, Austin, TX 78701. <a href="https://goo.gl/maps/xlPHB">map</a>

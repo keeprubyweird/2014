@@ -12,7 +12,7 @@ title: Keep Ruby Weird Speakers
       {% else %}
       <img src="/images/{{ speaker.slug }}.jpg"></img>
       {% endif %}
-      <h2>{{ speaker.talk-title }}</h2>
+      <h2><a name="{{ speaker.talk-slug }}">{{ speaker.talk-title }}</a></h2>
       <address class="byline">
         {{ speaker.name }}
         ({% for twitter in speaker.twitters %}<a href="https://twitter.com/{{ twitter}}">@{{ twitter }}</a>{% if speaker.twitters.last != twitter %}, {% endif %}{% endfor %})
