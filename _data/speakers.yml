@@ -4,6 +4,7 @@
   image: "/images/tenderlove.png"
   twitters: ["tenderlove"]
   talk-title: Opening Keynote
+  talk-slug: opening-keynote
   speaker-bio: |
     The only member of both the Ruby and Rails core teams, Aaron Patterson is
     nothing short of a prolific open source contributor.  By day he is a mild
@@ -15,6 +16,7 @@
   image: "/images/russolsen.jpg"
   twitters: ["russolsen"]
   talk-title: Closing Keynote
+  talk-slug: closing-keynote
   speaker-bio: |
     Russ is the author of two highly regarded books: Design Patterns in Ruby and
     Eloquent Ruby. Russ also has been secretly enamored with parentheses since
@@ -29,6 +31,7 @@
   speaker-bio: I'm a professional Rubyist and an amateur linguist. I like all kinds
     of languages, both human and computer. I don't drive much.
   talk-title: What's that supposed to mean?
+  talk-slug: whats-that-supposed-to-mean
   talk-description: |
     Have you ever cursed at the symbols on a washing machine, puzzled at the
     pictorial navigation of a website, or panicked at that inscrutable symbol on
@@ -62,6 +65,7 @@
     small-application ecosystems, APIs, business intelligence, machine learning,
     and predictive analytics.
   talk-title: He Doesn't Work Here Anymore
+  talk-slug: he-doesnt-work-here-anymore
   talk-description: |
     What happens when a highly visible and successful developer announces to
     the world that they plan to transition from male to female?
@@ -86,6 +90,7 @@
     can be found exploring the mountains of Colorado or experimenting with
     hardware projects.
   talk-title: Computer Art at Bell Labs
+  talk-slug: computer-art-at-bell-labs
   talk-description: |
     During the 1960's, computer scientists at Bell Labs in Murray Hill, NJ
     explored the limits of computers through art and music. Some worked by
@@ -107,6 +112,7 @@
     hire Jonan.  Probably not though, he works at New Relic and he's pretty
     happy about it.
   talk-title: Ruby Monsters Go Bump In The Night
+  talk-slug: ruby-monsters-go-bump-in-the-night
   talk-description: |
     An exploration of the forgotten and dusty corners of Ruby, including a tour
     of some very unusual behaviors from threads, loops, exceptions and procs.
@@ -138,6 +144,7 @@
     and kicking ass.  She's currently all out of bubblegum. Send love and hugs
     her way via [@brennx0r](https://twitter.com/brennx0r).
   talk-title: 'Ten Years of Ruby Conferences: A Dramatic Revue'
+  talk-slug: ten-years-of-ruby-conferences-a-dramatic-revue'
   talk-description:
     Many incredible people have given many amazing talks at Ruby or Rails
     conferences over the years, and we’d like to take a look back at some of
@@ -157,6 +164,7 @@
     from Austin, TX. He's an advocate for all things pairing, especially the
     power and productivity that vulnerability and egolessness bring to any team.
   talk-title: How To Code Like a Writer
+  talk-slug: how-to-code-like-a-writer
   talk-description: |
     As developers, we spend more of our time writing than we do thinking about
     the nuances of computer science. What would happen if we approached code

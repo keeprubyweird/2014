@@ -1,0 +1,24 @@
+---
+layout: default
+title: Keep Ruby weird Schedule
+---
+
+<table class="table white schedule">
+  <tbody>
+    {% for entry in site.data.schedule %}
+      <tr>
+        <td class="datetime"><time datetime='2014-10-24T{{ entry.time }}:00-05:00'>{{ entry.time }}</time></td>
+        <td>
+          {% if entry.talk-slug %}
+          <a href="/speakers#{{ entry.talk-slug }}">{{ entry.title }}</a>
+          {% else %}
+          {{ entry.title }}
+          {% endif %}
+          <br/>
+          <span class="caption">{{ entry.caption }}</span>
+        </td>
+      </tr>
+    </div>
+    {% endfor %}
+  </tbody>
+</table>
