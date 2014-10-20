@@ -30,6 +30,10 @@
   title: Lunch
   caption: moar noms
 
+- time: "13:15"
+  title: Ruby Pun Off
+  caption: Matt Pollock, Master Pun Meister
+
 - time: "14:00"
   title: Ten Years of Ruby Conferences A Dramatic Revue
   talk-slug: ten-years-of-ruby-conferences-a-dramatic-revue'
@@ -41,8 +45,8 @@
   caption: Jonan Schefler
 
 - time: "15:00"
-  title: Ruby Pun Off
-  caption: Matt Pollock, Master Pun Meister
+  title: An Actual Break
+  caption: bathrooms, coffee, socialization
 
 - time: "15:30"
   title: How to Code Like a Writer
