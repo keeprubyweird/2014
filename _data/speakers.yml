@@ -2,6 +2,7 @@
 - name: Aaron Patterson
   slug: aaron-patterson
   image: "/images/tenderlove.png"
+  sketchnote-slug: 2_aaron
   twitters: ["tenderlove"]
   talk-title: Opening Keynote
   talk-slug: opening-keynote
@@ -14,6 +15,7 @@
 - name: Russ Olsen
   slug: russ-olsen
   image: "/images/russolsen.jpg"
+  sketchnote-slug: 9_russ
   twitters: ["russolsen"]
   talk-title: Closing Keynote
   talk-slug: closing-keynote
@@ -27,6 +29,7 @@
 
 - name: Paul Battley
   slug: paul-battley
+  sketchnote-slug: 4_paul
   twitters: ["threedaymonk"]
   speaker-bio: I'm a professional Rubyist and an amateur linguist. I like all kinds
     of languages, both human and computer. I don't drive much.
@@ -55,6 +58,7 @@
     hamburger menus, and inspire people to do better.
 - name: Coraline Ehmke
   slug: coraline-ehmke
+  sketchnote-slug: 3_coraline
   twitters: ["bantik"]
   speaker-bio: |
     Coraline Ada Ehmke is a speaker, author, teacher, open source advocate and
@@ -83,6 +87,7 @@
     exploring the intersection of gender and technology.
 - name: Joanne Cheng
   slug: joanne-cheng
+  sketchnote-slug: 8_joanne
   twitters: ["joannecheng"]
   speaker-bio: |
     Joanne is an experienced developer who thinks a lot about data visualization
@@ -104,6 +109,7 @@
     collaboration.
 - name: Jonan Scheffler
   slug: jonan-scheffler
+  sketchnote-slug: 6_jonan
   twitters: ["1337807"]
   speaker-bio: |
     Free range computer sciencer from Portland Oregon, crafting artisanal
@@ -121,6 +127,7 @@
     were prepared for the fight.
 - name: Jeremy Flores and Carol Nichols
   slug: jeremy-flores-and-carol-nichols
+  sketchnote-slug: 5_carol-jeremy-brenna
   twitters: ["_jnf", "carols10cents"]
   speaker-bio: |
     Jeremy’s been programming about half as long as he’s been alive. He gets all
@@ -157,6 +164,7 @@
     row. This talk features creations by Brenna Flood.
 - name: Nickolas Means
   slug: nickolas-means
+  sketchnote: 7_nickolas
   twitters: ["nmeans"]
   speaker-bio: |
     Nickolas Means is a software engineer at [WellMatch
