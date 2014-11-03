@@ -12,6 +12,8 @@ title: Keep Ruby Weird Schedule
       <td>
         {% if entry.talk-slug %}
         <a href="/speakers#{{ entry.talk-slug }}">{{ entry.title }}</a>
+        {% elsif entry.sketchnote-slug %}
+        <a href="/images/sketchnotes/{{ entry.sketchnote-slug }}.jpg">{{entry.title}}</a>
         {% else %}
         {{ entry.title }}
         {% endif %}

@@ -5,6 +5,7 @@
 
 - time: "10:00"
   title: Welcoming Remarks
+  sketchnote-slug: 1_cover
   caption: Keep Ruby Weird Organizers
 
 - time: "10:10"
@@ -32,6 +33,7 @@
 
 - time: "13:30"
   title: Ruby Pun Off
+  sketchnote-slug: 10_puns
   caption: Matt Pollock & Dav Wallace, Master Pun Meisters
 
 - time: "14:00"
