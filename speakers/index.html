@@ -16,7 +16,7 @@ title: Keep Ruby Weird Speakers
       <address class="byline">
         {{ speaker.name }}
         ({% for twitter in speaker.twitters %}<a href="https://twitter.com/{{ twitter}}">@{{ twitter }}</a>{% if speaker.twitters.last != twitter %}, {% endif %}{% endfor %})
-        <p><a href="/images/sketchnotes/{{ speaker.sketchnote-slug }}.jpg">sketchnote</a></p>
+        <p><a href="/images/sketchnotes/{{ speaker.sketchnote-slug }}.jpg">sketchnote</a> <a href="{{ speaker.video-url }}">video</a></p>
       </address>
       {% if speaker.talk-description %}
       <section class="talk-description">

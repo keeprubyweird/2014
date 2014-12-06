@@ -3,6 +3,7 @@
   slug: aaron-patterson
   image: "/images/tenderlove.png"
   sketchnote-slug: 2_aaron
+  video-url: http://www.confreaks.com/videos/4785-KeepRubyWeird14-opening-keynote
   twitters: ["tenderlove"]
   talk-title: Opening Keynote
   talk-slug: opening-keynote
@@ -16,6 +17,7 @@
   slug: russ-olsen
   image: "/images/russolsen.jpg"
   sketchnote-slug: 9_russ
+  video-url: http://www.confreaks.com/videos/4792-KeepRubyWeird14-closing-keynote
   twitters: ["russolsen"]
   talk-title: Closing Keynote
   talk-slug: closing-keynote
@@ -30,6 +32,7 @@
 - name: Paul Battley
   slug: paul-battley
   sketchnote-slug: 4_paul
+  video-url: http://www.confreaks.com/videos/4787-KeepRubyWeird14-what-s-that-supposed-to-mean
   twitters: ["threedaymonk"]
   speaker-bio: I'm a professional Rubyist and an amateur linguist. I like all kinds
     of languages, both human and computer. I don't drive much.
@@ -59,6 +62,7 @@
 - name: Coraline Ehmke
   slug: coraline-ehmke
   sketchnote-slug: 3_coraline
+  video-url: http://www.confreaks.com/videos/4786-KeepRubyWeird14-he-doesn-t-work-here-anymore
   twitters: ["bantik"]
   speaker-bio: |
     Coraline Ada Ehmke is a speaker, author, teacher, open source advocate and
@@ -88,6 +92,7 @@
 - name: Joanne Cheng
   slug: joanne-cheng
   sketchnote-slug: 8_joanne
+  video-url: http://www.confreaks.com/videos/4791-KeepRubyWeird14-computer-art-at-bell-labs
   twitters: ["joannecheng"]
   speaker-bio: |
     Joanne is an experienced developer who thinks a lot about data visualization
@@ -110,6 +115,7 @@
 - name: Jonan Scheffler
   slug: jonan-scheffler
   sketchnote-slug: 6_jonan
+  video-url: http://www.confreaks.com/videos/4789-KeepRubyWeird14-ruby-monsters-go-bump-in-the-night
   twitters: ["1337807"]
   speaker-bio: |
     Free range computer sciencer from Portland Oregon, crafting artisanal
@@ -128,6 +134,7 @@
 - name: Jeremy Flores and Carol Nichols
   slug: jeremy-flores-and-carol-nichols
   sketchnote-slug: 5_carol-jeremy-brenna
+  video-url: http://www.confreaks.com/videos/4788-KeepRubyWeird14-ten-years-of-ruby-conferences-a-dramatic-revue
   twitters: ["_jnf", "carols10cents"]
   speaker-bio: |
     Jeremy’s been programming about half as long as he’s been alive. He gets all
@@ -165,6 +172,7 @@
 - name: Nickolas Means
   slug: nickolas-means
   sketchnote-slug: 7_nickolas
+  video-url: http://www.confreaks.com/videos/4790-KeepRubyWeird14-how-to-code-like-a-writer
   twitters: ["nmeans"]
   speaker-bio: |
     Nickolas Means is a software engineer at [WellMatch
